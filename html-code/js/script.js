@@ -8,6 +8,8 @@ if (ScrollTrigger.isTouch !== 1) {
         effects: true
     })
 
+    console.log("Scroll triggered");
+
     gsap.fromTo('.hero-section', { opacity: 1 }, {
         opacity: 0,
         scrollTrigger: {
